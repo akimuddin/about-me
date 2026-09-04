@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akim Uddin | Professional Web Developer</title> 
+    <link rel="icon" type="image/png" sizes="32x32" href="img/mylogo.png">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Animate.css (Required for WOW.js) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="100" tabindex="0">
+
+    <!-- Scroll Progress Bar with Percentage Text -->
+    <div id="progress-container">
+      <div id="progress-bar">0%</div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar-example" class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark-translucent">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#hero">
+          <img src="img/logo.png" alt="AkimTech Logo" class="me-2 logo-img">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fw-semibold gap-1 gap-lg-2">
+            <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-cyan ms-lg-3 rounded-pill px-4">Hire Me</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center min-vh-100 position-relative pt-5">
+      <div class="container">
+        <div class="row align-items-center flex-column-reverse flex-lg-row">
+          <div class="col-lg-7 text-white mt-4 mt-lg-0 wow animate__fadeInLeft" data-wow-duration="1.2s">
+            <span class="badge bg-cyan text-dark mb-3 px-3 py-2 text-uppercase fs-6">Welcome to my Portfolio</span>
+            <h1 class="display-4 fw-bold">Hi, I'm <span class="text-cyan">Akim Uddin</span></h1>
+            <h3 class="h2 mb-4">I build <span id="typing-text" class="text-cyan"></span></h3>
+            <p class="lead mb-4 text-muted-custom">
+              Full-stack web developer and UI designer specializing in clean code, high performance, and pixel-perfect Bootstrap/custom interfaces for clients worldwide.
+            </p>
+            <div class="d-flex gap-3">
+              <a href="#portfolio" class="btn btn-cyan btn-lg rounded-pill px-4">View Works</a>
+              <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">Contact Me</a>
+            </div>
+          </div>
+          <div class="col-lg-5 text-center wow animate__fadeInRight" data-wow-duration="1.2s">
+            <div class="hero-img-wrapper">
+              <img src="img/ceo-h.png" alt="Akim Uddin" class="img-fluid rounded-circle profile-img shadow-lg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-darker">
+      <div class="container py-4">
+        <div class="row align-items-center">
+          <div class="col-lg-5 mb-4 mb-lg-0 text-center wow animate__zoomIn">
+            <img src="img/ceo-h.jpg" alt="Akim Uddin" class="img-fluid rounded-4 shadow">
+          </div>
+          <div class="col-lg-7 ps-lg-5 wow animate__fadeInLeft">
+            <h2 class="section-title text-white">About <span class="text-cyan">Me</span></h2>
+            <p class="text-muted-custom mb-4">
+              I am a passionate web developer with deep expertise in HTML5, CSS3, JavaScript, jQuery, Bootstrap, WordPress, and custom UI components. I help businesses and startups build modern, mobile-friendly websites designed to convert visitors into clients.
+            </p>
+
+            <div class="skills-wrapper">
+              <div class="mb-3">
+                <div class="d-flex justify-content-between text-white mb-1">
+                  <span>HTML5 / CSS3 / Bootstrap</span>
+                  <span>95%</span>
+                </div>
+                <div class="progress"><div class="progress-bar bg-cyan" style="width: 95%"></div></div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between text-white mb-1">
+                  <span>JavaScript & jQuery</span>
+                  <span>88%</span>
+                </div>
+                <div class="progress"><div class="progress-bar bg-cyan" style="width: 88%"></div></div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between text-white mb-1">
+                  <span>WordPress & Elementor</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress"><div class="progress-bar bg-cyan" style="width: 90%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+      <div class="container py-4">
+        <div class="text-center mb-5 wow animate__fadeInDown">
+          <h2 class="section-title text-white">My <span class="text-cyan">Services</span></h2>
+          <p class="text-muted-custom">Tailored web solutions designed for high performance and marketplace success.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4 wow animate__fadeInUp" data-wow-delay="0.1s">
+            <div class="service-card text-center p-4 rounded-4">
+              <i class="fa-solid fa-code service-icon mb-3"></i>
+              <h4 class="text-white">Responsive Web Design</h4>
+              <p class="text-muted-custom">Mobile-first, pixel-perfect layouts using modern Bootstrap 5 and flexbox/grid architectures.</p>
+            </div>
+          </div>
+          <div class="col-md-4 wow animate__fadeInUp" data-wow-delay="0.3s">
+            <div class="service-card text-center p-4 rounded-4">
+              <i class="fa-solid fa-laptop-code service-icon mb-3"></i>
+              <h4 class="text-white">Frontend Development</h4>
+              <p class="text-muted-custom">Dynamic client-side features, animations, and interactive controls with JavaScript and jQuery.</p>
+            </div>
+          </div>
+          <div class="col-md-4 wow animate__fadeInUp" data-wow-delay="0.5s">
+            <div class="service-card text-center p-4 rounded-4">
+              <i class="fa-brands fa-wordpress service-icon mb-3"></i>
+              <h4 class="text-white">WordPress Customization</h4>
+              <p class="text-muted-custom">Custom themes, Elementor builds, speed optimizations, and site fixes tailored for business growth.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-darker">
+      <div class="container py-4">
+        <div class="text-center mb-4 wow animate__fadeInDown">
+          <h2 class="section-title text-white">Featured <span class="text-cyan">Projects</span></h2>
+          <p class="text-muted-custom">Explore some of my recent work across various web domains.</p>
+        </div>
+
+        <div class="d-flex justify-content-center gap-2 mb-4 flex-wrap wow animate__fadeIn">
+          <button class="btn btn-outline-cyan active filter-btn" data-filter="all">All</button>
+          <button class="btn btn-outline-cyan filter-btn" data-filter="web">Web Development</button>
+          <button class="btn btn-outline-cyan filter-btn" data-filter="wordpress">WordPress</button>
+        </div>
+
+        <div class="row g-4 portfolio-container">
+          <div class="col-md-4 portfolio-item web wow animate__zoomIn" data-wow-delay="0.1s">
+            <div class="portfolio-card overflow-hidden rounded-4 position-relative">
+              <div class="portfolio-placeholder d-flex align-items-center justify-content-center text-white">E-Commerce Landing Page</div>
+              <div class="portfolio-overlay d-flex align-items-center justify-content-center text-center p-3">
+                <div>
+                  <h5>E-Commerce Portal</h5>
+                  <p>Bootstrap 5 & JavaScript</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 portfolio-item wordpress wow animate__zoomIn" data-wow-delay="0.3s">
+            <div class="portfolio-card overflow-hidden rounded-4 position-relative">
+              <div class="portfolio-placeholder d-flex align-items-center justify-content-center text-white">Corporate WordPress Site</div>
+              <div class="portfolio-overlay d-flex align-items-center justify-content-center text-center p-3">
+                <div>
+                  <h5>Corporate Site</h5>
+                  <p>WordPress & Elementor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 portfolio-item web wow animate__zoomIn" data-wow-delay="0.5s">
+            <div class="portfolio-card overflow-hidden rounded-4 position-relative">
+              <div class="portfolio-placeholder d-flex align-items-center justify-content-center text-white">SaaS Dashboard UI</div>
+              <div class="portfolio-overlay d-flex align-items-center justify-content-center text-center p-3">
+                <div>
+                  <h5>SaaS App Frontend</h5>
+                  <p>HTML, CSS, jQuery</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container py-4">
+        <div class="text-center mb-5 wow animate__fadeInUp">
+          <h2 class="section-title text-white">Get In <span class="text-cyan">Touch</span></h2>
+          <p class="text-muted-custom">Have a project in mind or need custom web solutions? Let's discuss!</p>
+        </div>
+        
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <form class="contact-form p-4 p-md-5 rounded-4 bg-darker">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <label for="fullName" class="form-label text-white fw-semibold mb-2">
+                    <i class="fa-regular fa-user text-cyan me-2"></i>Full Name
+                  </label>
+                  <input type="text" id="fullName" class="form-control" placeholder="e.g. John Doe" required>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="emailAddress" class="form-label text-white fw-semibold mb-2">
+                    <i class="fa-regular fa-envelope text-cyan me-2"></i>Email Address
+                  </label>
+                  <input type="email" id="emailAddress" class="form-control" placeholder="e.g. john@example.com" required>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="serviceType" class="form-label text-white fw-semibold mb-2">
+                    <i class="fa-solid fa-list-check text-cyan me-2"></i>Service Needed
+                  </label>
+                  <select id="serviceType" class="form-select" required>
+                    <option value="" selected disabled>Select a Service</option>
+                    <option value="web-design">Responsive Web Design</option>
+                    <option value="frontend">Frontend Development (Bootstrap/JS)</option>
+                    <option value="wordpress">WordPress Development</option>
+                    <option value="other">Other / Marketplace Inquiry</option>
+                  </select>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="budget" class="form-label text-white fw-semibold mb-2">
+                    <i class="fa-solid fa-dollar-sign text-cyan me-2"></i>Estimated Budget
+                  </label>
+                  <input type="text" id="budget" class="form-control" placeholder="e.g. $100 - $500">
+                </div>
+
+                <div class="col-12">
+                  <label for="subject" class="form-label text-white fw-semibold mb-2">
+                    <i class="fa-solid fa-pen-to-square text-cyan me-2"></i>Subject
+                  </label>
+                  <input type="text" id="subject" class="form-control" placeholder="Project Title or Brief Subject" required>
+                </div>
+
+                <div class="col-12">
+                  <label for="message" class="form-label text-white fw-semibold mb-2">
+                    <i class="fa-regular fa-comment-dots text-cyan me-2"></i>Project Details
+                  </label>
+                  <textarea id="message" class="form-control" rows="5" placeholder="Write your project requirements or details here..." required></textarea>
+                </div>
+
+                <div class="col-12 text-center mt-4">
+                  <button type="submit" class="btn btn-cyan btn-lg rounded-pill px-5">
+                    <i class="fa-solid fa-paper-plane me-2"></i>Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-darker text-center border-top border-secondary">
+      <div class="container">
+        <p class="mb-0 text-muted-custom">&copy; 2026 Akim Tech. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- jQuery & Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- WOW.js for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
