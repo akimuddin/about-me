@@ -83,7 +83,7 @@ $(document).ready(function() {
   });
 
   // 5. Typing Effect for Hero Title
-  const phrases = ["Responsive Websites.", "Bootstrap Frontends.", "WordPress Solutions."];
+  const phrases = [ "WordPress Solutions.", "WooCommerce", "Business Websites", "Responsive Websites.", "Bootstrap Frontends.",];
   let i = 0, j = 0;
   let currentPhrase = [];
   let isDeleting = false;
